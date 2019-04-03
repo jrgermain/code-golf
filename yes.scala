@@ -1,4 +1,1 @@
-object Yes extends App {
-	val yes = if (args.length > 0) args.mkString(" ") else "y"
-	while (true) println(yes)
-}
+object Yes extends App {while (true) println(if (args.length > 0) args.mkString(" ") else "y")}
