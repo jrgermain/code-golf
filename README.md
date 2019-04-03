@@ -3,6 +3,4 @@ Possibly the most concise implementation of [yes](https://en.wikipedia.org/wiki/
 
 ## Usage instructions
 
-Compile with `scalac yes.scala`
-
-Run using `scala Yes` to output "y" until killed or `scala Yes mystring` to output "mystring" until killed. To kill the process, hit Ctrl-C.
+Run using `scala yes.scala` to output "y" until killed or `scala yes.scala mystring` to output "mystring" until killed. To kill the process, hit Ctrl-C.
